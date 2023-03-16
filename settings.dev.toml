@@ -1,0 +1,5 @@
+[api]
+env = "dev"
+debug = true
+title = "Chat (dev)"
+enable_permissive_cors = true

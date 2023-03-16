@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  @apply flex justify-between p-4 bg-amber-50 text-2xl border-b border-amber-400 shadow;
+}
+
+#connection-status {
+  @apply flex justify-between p-4 bg-gray-900 text-amber-700 border-b border-amber-600 shadow;
+}
+
+main {
+  @apply p-4;
+}
+
+.error {
+  @apply mb-4 p-4 bg-red-50 text-red-600 border border-red-600 rounded;
+}
+
+form {
+  @apply flex mb-4 gap-2;
+}
+
+label {
+  @apply text-sm text-gray-600;
+}
+
+fieldset {
+  @apply flex flex-col gap-2 w-full;
+}
+
+input {
+  @apply p-2 border rounded;
+}
+
+.messages {
+  @apply border border-amber-600 rounded;
+  line-height: 1;
+}
+.messages-header {
+  @apply flex justify-between text-amber-700 border-b border-amber-600;
+}
+.messages-header, .messages-body {
+  @apply p-4;
+}
+.message {
+  @apply p-2 rounded;
+}
+.message:nth-child(odd) {
+  @apply bg-gray-100;
+}
+.message-action {
+  @apply text-gray-800 italic;
+}
+.message-username {
+  @apply text-gray-800 font-bold italic;
+}

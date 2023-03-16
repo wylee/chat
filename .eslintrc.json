@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    ".ruff_cache/",
+    ".venv/",
+    "__pycache__/",
+    "build/",
+    "dist/",
+    "node_modules/",
+    "src/api/",
+    "tests/"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:solid/typescript",
+    "plugin:prettier/recommended"
+  ]
+}
